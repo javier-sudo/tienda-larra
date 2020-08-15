@@ -1,0 +1,41 @@
+﻿body {
+}
+
+a:hover{
+    color: hotpink;
+}
+
+.datosUser{
+    text-align:left;
+}
+
+.menu{
+    border: 1px solid;
+    float:left;
+    margin-top: 5px;
+    width: 15%;
+    height: 300px;
+    object-fit:fill;
+}
+
+.infoCentro{
+    float:left;
+    width:80%;
+    margin-left:1%;
+    margin-top: 5px;
+    object-fit:fill;
+}
+
+.infoSolicitudes {
+    float: left;
+    width: 80%;
+    margin-left: 1%;
+    margin-top: 5px;
+    object-fit: fill;
+    display: none;
+}
+
+.alineado{
+    margin-left:20%;
+    margin-top:2%;
+}

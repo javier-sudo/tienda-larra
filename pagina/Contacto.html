@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/topnav.css">
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
+    <link rel="stylesheet" type="text/css" href="css/estilosContacto.css">
+    <link rel="stylesheet" type="text/css" href="css/formStyles.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="<%= ResolveUrl("~/Scripts/jquery-3.5.1.min.js") %>"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title></title>
+</head>
+<body>
+	<header>
+		<img id="logo" src="img/logo.jpg">
+    	<div class="topnav" id="mitop">
+        	<a id="links" href="PaginaPrincipal.html">Home</a>
+        	<a id="links" href="">Nosotros</a>
+        	<a id="links" href="">Servicios</a>
+        	<a id="links" href="">Contáctenos</a>
+        	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          	<i class="fa fa-bars"></i>
+        	</a>
+    	</div> 
+	</header>
+    <br>
+    <div>
+        <p style="text-align: center; font-size: 1.7rem;">Formulario de contacto</p>
+        <div id="principal">
+            <article>
+                <div class="form">
+                    <form action="formulario-contacto.php" method="post">   
+                        <input name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+                        <input name="fono" type="text" placeholder="Teléfono" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+                        <input name="email" type="email" placeholder="Correo electrónico" required />   
+                        <textarea name="consulta" placeholder="Escriba aquí su consulta" rows="6" required></textarea>
+                        <button id="enviar" name="enviar" type="submit" class="btn btn-info">ENVIAR</button>
+                    </form> 
+                    <br>
+                </div>
+                <br>
+            </article>   
+    </div>
+    </div>
+    <br><br>
+    <div class="footerr">
+        <p style="text-align: center; font-size: 1.5rem;">Buscanos en nuestras redes</p>
+        <div class="redes">
+            <img id="insta" src="img/insta.png">
+            <a href="https://www.instagram.com/nicolasl.a/">--------</a>
+            <br>
+            <img id="face" src="img/face.png">
+            <a href="">--------</a>
+            <br>
+            <img id="wsp" src="img/wsp.png">
+            <a href="">--------</a>
+            <br>
+            <img id="gmail" src="img/gmail.png">
+            <a href="">--------</a>
+        </div>
+        <div class="otros">
+            <br><br>
+            <label>Dirección: Maipú 1234</label>
+            <br>
+            <label>Teléfono: 022 808456</label>
+        </div>
+    </div>
+</body>
+</html>

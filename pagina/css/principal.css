@@ -1,0 +1,215 @@
+body {
+    background: #faf7f7;
+   }
+   /*Validaciones*/
+        #msg-campo-vacio-rut{color: red;display: none;}
+        #msg-rango-invalido-rut{color: red;display: none;}
+        #msg-formato-invalido-rut{color: red;display: none;}
+        #msg-dv-invalido-rut{color: red;display: none;}
+        #msg-campo-vacio-nombre{color: red;display: none;}
+        #msg-campo-vacio-apellidop{color: red;display: none;}
+        #msg-campo-vacio-apellidom{color: red;display: none;}
+        
+#head-reserva{background: #6BA35B;
+              width: 100%; height: 150px;}
+
+.footerr{
+  background-color: #BBF5FC;
+}
+
+.redes{
+  background-color: #BBF5FC;
+  float: left;
+  width: 40%;
+  margin-right: 10%;
+}
+
+.otros{
+  background-color: #BBF5FC;
+  float: left;
+  width: 40%;
+  margin-left: 10%;
+}
+
+/*Imagenes*/
+
+img.textoCentrado{
+  vertical-align: middle;
+  
+}
+
+
+#insta {
+  margin-left: 20%;
+  margin-bottom: 1%;
+  width: 35px;
+  height: 35px;
+}
+#wsp {
+  margin-left: 20%;
+  margin-bottom: 1%;
+  width: 35px;
+  height: 35px;
+}
+#face {
+  margin-left: 20%;
+  margin-bottom: 1%;
+  width: 35px;
+  height: 35px;
+}
+#gmail {
+  margin-left: 20%;
+  margin-bottom: 1%;
+  width: 35px;
+  height: 35px;
+}
+#logo {float: left;
+          margin-left: 20px;
+          margin-top: 20px;
+          width: 80px;
+          height: 80px;}
+#reloj{float: left;
+          width: 55px;
+          height: 55px;
+          margin-left: 20px;
+          margin-top: 10px;}
+
+#check{float: left; margin-left: 25%; margin-right: 20px;}          
+
+#redes{ padding-right: 8%;
+          margin-top: 20px;}
+
+#heart{margin-left: 30px;
+          width: 70px;
+          height: 70px;
+          float: left;}
+
+#banner{height: 400px;}
+
+/*Botones*/
+   #btn-page-1{width: 200px;
+                height: 40px;
+                margin-top: 10%;}
+
+   #btn-form{float: right;}
+
+   /*-----------------------------*/
+   #text-bold{font-weight: bold;
+              font-family: Arial;
+              font-size: 1.5rem;}
+
+   #txthora{float: left;
+            margin-top: 6%;
+            margin-left: 45px;
+            font-size: 1.5rem;
+            margin-bottom: 50px;}
+
+   #js_w_temp{float: right;
+              margin-right: 50px;
+              margin-top: 50px;}
+
+   #txttemp{float: right;
+            margin-right: 10px;
+            margin-top: 50px;}
+
+   #c_examen{margin-bottom: 20px;}
+
+   #text{margin-top: 50px; color: white; }
+
+    #text-exito{color: white;
+                text-align: center;
+                float: left;}
+
+    #rs{float: right;
+        width: 400px;}
+
+   #servicio{margin-top: 30px;}
+   
+
+   #principal {
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 400px;
+    padding: 0px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-flex-flow: row;
+            flex-flow: row;
+    }
+  
+   #principal > article {
+    margin: 4px;
+    padding: 8px;
+    border: 2px solid #050505;
+    background: #fff;
+    -webkit-flex: 3 1 30%;
+            flex: 3 1 30%;
+    -webkit-order: 2;
+            order: 2;
+    }
+   
+   #principal > aside {
+    margin: 4px;
+    padding: 3px;
+    border: 2px solid #000;
+    border-radius: 12pt;
+    text-align: center;
+    background: #fff;
+    -webkit-flex: 1 6 20%;
+            flex: 1 6 20%;
+    -webkit-order: 3;
+            order: 3;}
+
+    #services {
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 400px;
+    padding: 20px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-flex-flow: row;
+            flex-flow: row;
+    }
+
+    #services > aside {
+    margin: 4px;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 12pt;
+    text-align: center;
+    background: #fff;
+    -webkit-flex: 1 6 20%;
+            flex: 1 6 20%;
+    -webkit-order: 1;
+            order: 1;}
+  
+   header, footer {
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    }
+    footer{
+          background: #6BA35B;
+          text-align: center;
+    }
+  
+   /* Too narrow to support three columns */
+   @media all and (max-width: 640px) {
+   
+    #principal, #page {
+     -webkit-flex-flow: column;
+             flex-flow: column;
+    }
+   #js_w_temp{float: right; margin-right: 50px; margin-top: 15px;}
+
+   #txttemp{float: right; margin-right: 10px; margin-top: 15px;}
+
+   .section__content{text-align: center;
+                      margin-right: 80px;
+                      margin-top: 20px;
+                      width: 260px;
+                      height: 40px;
+                      vertical-align: middle;}
+   }
+   .clima{float: right;}
+   .article{text-align: center;}

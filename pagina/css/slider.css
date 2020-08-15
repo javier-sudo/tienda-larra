@@ -1,0 +1,41 @@
+﻿body {
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width:1300px;
+    object-fit:fill;
+}
+#contenedor{
+    width:1300px;;
+    height: 300px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+#contenedor ul {
+    list-style: none;
+    width:3900px;
+    height: 100px;
+    object-fit:fill;
+    display: flex;
+
+    animation: slide 15s infinite alternate;
+}
+
+#contenedor ul li{
+}
+
+@keyframes slide {
+    0% {margin-left:0px;}
+    35% {margin-left: 0px;}
+
+    40% {margin-left: -1300px;}
+    70% {margin-left: -1300px;}
+
+    75% {margin-left: -2600px;}
+    100% {margin-left: -2600px;}
+}
